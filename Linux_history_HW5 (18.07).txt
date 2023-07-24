@@ -1,0 +1,26 @@
+   0 cd /
+   1 ls
+   2 date
+   3 date > /home/newfile.txt
+   4 cd home
+   5 cat newfile.txt 
+   6 df /
+   7 df / >> newfile.txt 
+   8 cat newfile.txt 
+   9 history
+  10 history | tail -n 5 >> newfile.txt 
+  11 cat newfile.txt 
+  12 cpuid
+  13 df /proc/cpuinfo
+  14 cat /proc/cpuinfo
+  15 grep "vendor" /proc/cpuinfo >> newfile.txt 
+  16 cat newfile.txt 
+  17 vi /home/newfile.txt 
+  18 cat newfile.txt 
+  19 vi /home/newfile.txt 
+  20 cat newfile.txt 
+  21 ps -ef  
+  22 ps -ef | tail +2 | wc -l >> newfile.txt 
+  23 cat newfile.txt 
+  24 history
+  25 history > history_HW5.txt
